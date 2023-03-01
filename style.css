@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 700px;
+}
+
+.card .container:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+  
+}
+
+.layanan:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 150px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.link {
+  font-weight: bold;
+  padding: 15px;
+  width: 75%;
+  margin: auto;
+}
+
+.link h3 {
+  font-size: 1.1em;
+}
+
+.bi-arrow-up-right-square-fill {
+  color: #005eff;
+}
